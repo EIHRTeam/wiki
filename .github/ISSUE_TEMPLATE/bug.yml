@@ -1,0 +1,55 @@
+name: 问题反馈
+description: 反馈遇到的问题
+labels: ["Bug"]
+assignees: "mushao227"
+
+body:
+  - type: markdown
+    attributes:
+      value: |
+        仅仅反馈所遇到的单个问题，多个请重新提交另外的 issue
+
+  - type: checkboxes
+    attributes:
+      label: 在反馈此问题前请注意
+      description: 在提交此反馈前请确认以下内容
+      options:
+        - label: 您确认该问题出现在**国服**森空岛终末地 Wiki (wiki.skland.com) 上
+          required: true
+        - label: 您确认该问题出现在**干员**条目中
+          required: true
+        - label: 已经在本仓库搜索相关内容（避免重复反馈）
+          required: true
+        - label: 确认仅将提交**一个**问题（多个问题或者备注提及另外的问题请重新提交新的）
+          required: true
+
+  - type: input
+    attributes:
+      label: 简述
+      description: 请简明扼要的说明您发现的问题
+    validations:
+      required: true
+
+  - type: input
+    attributes:
+      label: 发现时间
+      description: 您发现该问题时的北京时间（GMT+8）
+      placeholder: 如 23:00
+    validations:
+      required: true
+
+  - type: input
+    attributes:
+      label: 屏幕截图
+      description: 在此粘贴对问题部分的屏幕截图
+    validations:
+      required: false
+
+  - type: textarea
+    attributes:
+      label: 补充说明
+      description: |
+        您可在此对该问题进行补充说明
+      placeholder: 点击输入文本或粘贴图片
+    validations:
+      required: false
