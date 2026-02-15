@@ -38,12 +38,14 @@ body:
     validations:
       required: true
 
-  - type: input
+  - type: textarea
     attributes:
       label: 屏幕截图
-      description: 在此粘贴对问题部分的屏幕截图
+      description: |
+        在此添加对问题部分的屏幕截图
+      placeholder: 点击输入文本或粘贴图片
     validations:
-      required: false
+      required: true
 
   - type: textarea
     attributes:
