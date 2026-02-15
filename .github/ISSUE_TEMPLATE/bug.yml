@@ -32,6 +32,13 @@ body:
 
   - type: input
     attributes:
+      label: 条目链接
+      description: 请输入指向相关条目的 URL
+    validations:
+      required: true
+
+  - type: input
+    attributes:
       label: 发现时间
       description: 您发现该问题时的北京时间（GMT+8）
       placeholder: 如 23:00
