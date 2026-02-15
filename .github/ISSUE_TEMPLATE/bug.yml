@@ -1,13 +1,14 @@
 name: 问题反馈
 description: 反馈遇到的问题
-labels: ["Bug"]
+title: "[Bug]: "
+labels: ["bug"]
 assignees: "mushao227"
 
 body:
   - type: markdown
     attributes:
       value: |
-        仅仅反馈所遇到的单个问题，多个请重新提交另外的 issue
+        仅反馈所遇到的单个问题，多个请重新提交另外的 issue
 
   - type: checkboxes
     attributes:
