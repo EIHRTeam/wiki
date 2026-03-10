@@ -19,7 +19,7 @@ body:
           required: true
         - label: 您确认该问题出现在**干员**条目中
           required: true
-        - label: 您已阅读 [README.md](README.md) 中“须知”一节的内容
+        - label: 您已阅读 [README.md](https://github.com/EIHRTeam/wiki/blob/main/README.md) 中“须知”一节的内容
           required: true
         - label: 已经在本仓库搜索相关内容（避免重复反馈）
           required: true
