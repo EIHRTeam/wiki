@@ -1,0 +1,57 @@
+name: 意见箱
+description: 反馈您对 Wiki 建设的建议与看法
+title: "[Suggestion] "
+labels: [""]
+assignees: "u-00a0"
+
+body:
+  - type: markdown
+    attributes:
+      value: |
+        仅反馈单个建议，多个请重新提交另外的 issue
+
+  - type: checkboxes
+    attributes:
+      label: 在反馈此问题前请注意
+      description: 在提交此反馈前请确认以下内容
+      options:
+        - label: 您确认该建议针对**国服**森空岛终末地 Wiki (wiki.skland.com) 
+          required: true
+        - label: 您确认该建议针对**干员**条目
+          required: true
+        - label: 已经在本仓库搜索相关内容（避免重复反馈）
+          required: true
+        - label: 确认仅将提交**一个**建议（多个或者备注提及另外的问题请重新提交新的）
+          required: true
+
+  - type: input
+    attributes:
+      label: 简述
+      description: 请简明扼要的说明您的见解
+    validations:
+      required: true
+
+  - type: input
+    attributes:
+      label: 条目链接
+      description: 请输入指向相关条目的 URL
+    validations:
+      required: false
+
+  - type: textarea
+    attributes:
+      label: 屏幕截图
+      description: |
+        在此添加对问题部分的屏幕截图
+      placeholder: 点击输入文本或粘贴图片
+    validations:
+      required: false
+
+  - type: textarea
+    attributes:
+      label: 补充说明
+      description: |
+        您可在此对该问题进行补充说明
+      placeholder: 点击输入文本或粘贴图片
+    validations:
+      required: false
