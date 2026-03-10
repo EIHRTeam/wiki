@@ -1,6 +1,6 @@
 name: 问题反馈
 description: 反馈遇到的问题
-title: "[Bug]: "
+title: "[Bug] "
 labels: ["bug"]
 assignees: "mushao227"
 
